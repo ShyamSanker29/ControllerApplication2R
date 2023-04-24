@@ -33724,7 +33724,7 @@ A.th.prototype={
 wR(){this.ae(new A.SX(this))},
 tv(){this.ae(new A.T_(this))},
 M(a){var s=this,r=null,q=a.T(t.w).f.a,p=q.b*0.05,o=q.a*0.4,n=t.F
-return A.aaz(A.a9B(B.aA,r,B.Kv,r,r),A.aaC(A.a9P(A.a([A.e9(r,r,r,r,p,r,r,r),A.aay(A.a([A.hP(A.FR(B.Ar,B.d7,new A.SY(s)),r,o),A.hP(A.FR(B.At,B.d7,new A.SZ(s)),r,o)],n),B.dt,B.ru,B.c6),A.e9(B.R,A.Bj(B.vh,s.gwQ(),A.rY(r,r,B.aA,r,r,r,r,r,r,new A.W(o,p),r,r,r,r,r,r,r,r,B.eB,r)),r,B.cq,p,B.fk,r,o),A.e9(B.R,A.Bj(B.vg,s.gtu(),A.rY(r,r,B.aA,r,r,r,r,r,r,new A.W(o,p),r,r,r,r,r,r,r,r,B.eB,r)),r,B.cq,p,B.lZ,r,o),A.kI(s.r,r,r,r,B.ba,B.ci,r),A.e9(r,r,r,r,p,r,r,r),A.kI(s.w,r,r,r,B.ba,B.ci,r)],n),B.e3,B.c6)))}}
+return A.aaz(A.a9B(B.aA,r,B.Kv,r,r),A.aaC(A.a9P(A.a([A.e9(r,r,r,r,p,r,r,r),A.aay(A.a([A.hP(A.FR(B.At,B.d7,new A.SY(s)),r,o),A.hP(A.FR(B.Av,B.d7,new A.SZ(s)),r,o)],n),B.dt,B.ru,B.c6),A.e9(B.R,A.Bj(B.vh,s.gwQ(),A.rY(r,r,B.aA,r,r,r,r,r,r,new A.W(o,p),r,r,r,r,r,r,r,r,B.eB,r)),r,B.cq,p,B.fk,r,o),A.e9(B.R,A.Bj(B.vg,s.gtu(),A.rY(r,r,B.aA,r,r,r,r,r,r,new A.W(o,p),r,r,r,r,r,r,r,r,B.eB,r)),r,B.cq,p,B.lZ,r,o),A.kI(s.r,r,r,r,B.ba,B.ci,r),A.e9(r,r,r,r,p,r,r,r),A.kI(s.w,r,r,r,B.ba,B.ci,r)],n),B.e3,B.c6)))}}
 A.SX.prototype={
 $0(){var s,r,q=this.a,p=q.e
 if(p===""||q.f==="")q.r="\u03b81 or \u03b82 value empty !"
@@ -33734,9 +33734,9 @@ s=A.dz(q.f)
 $.Nc=A.a([],t.v)
 r=p/57.325
 p=s/57.325
-$.ahA=0.165*Math.cos(r)*Math.cos(p)-0.165*Math.sin(r)*Math.sin(p)*Math.cos(1.57)+0*Math.sin(r)*Math.sin(1.57)+0.0375*Math.cos(r)
-$.ahB=0.165*Math.sin(r)*Math.cos(p)+0.165*Math.sin(p)*Math.cos(r)*Math.cos(1.57)-0*Math.cos(r)*Math.sin(1.57)+0.0375*Math.sin(r)
-$.ahC=0.165*Math.sin(p)*Math.sin(1.57)+0*Math.cos(1.57)+0.0671
+$.ahA=0.08*Math.cos(r)*Math.cos(p)-0.08*Math.sin(r)*Math.sin(p)*Math.cos(1.57)+0*Math.sin(r)*Math.sin(1.57)+0.03*Math.cos(r)
+$.ahB=0.08*Math.sin(r)*Math.cos(p)+0.08*Math.sin(p)*Math.cos(r)*Math.cos(1.57)-0*Math.cos(r)*Math.sin(1.57)+0.03*Math.sin(r)
+$.ahC=0.08*Math.sin(p)*Math.sin(1.57)+0*Math.cos(1.57)+0.02
 $.Nc.push($.ahA)
 $.Nc.push($.ahB)
 $.Nc.push($.ahC)
@@ -33749,7 +33749,7 @@ A.T_.prototype={
 $0(){var s=this.a,r=s.x=!s.x
 if(r)s.w="Gripper Open"
 else s.w="Gripper Close"
-s.d.c.an(0,A.as(["gripper",r?180:0],t.N,t.X))},
+s.d.c.an(0,A.as(["gripper",r?0:180],t.N,t.X))},
 $S:0}
 A.SY.prototype={
 $1(a){this.a.e=a},
@@ -33766,18 +33766,18 @@ wR(){this.ae(new A.Ue(this))},
 tv(){this.ae(new A.Ui(this))},
 M(a){var s=this,r=null,q=a.T(t.w).f.a,p=q.b*0.05,o=q.a,n=o*0.3,m=t.F
 o*=0.4
-return A.aaz(A.a9B(B.aA,r,B.Ku,r,r),A.aaC(A.a9P(A.a([A.e9(r,r,r,r,p,r,r,r),A.aay(A.a([A.hP(A.FR(B.As,B.d7,new A.Uf(s)),r,n),A.hP(A.FR(B.Av,B.d7,new A.Ug(s)),r,n),A.hP(A.FR(B.Au,B.d7,new A.Uh(s)),r,n)],m),B.dt,B.ru,B.c6),A.e9(B.R,A.Bj(B.vh,s.gwQ(),A.rY(r,r,B.aA,r,r,r,r,r,r,new A.W(o,p),r,r,r,r,r,r,r,r,B.eB,r)),r,B.cq,p,B.fk,r,o),A.e9(B.R,A.Bj(B.vg,s.gtu(),A.rY(r,r,B.aA,r,r,r,r,r,r,new A.W(o,p),r,r,r,r,r,r,r,r,B.eB,r)),r,B.cq,p,B.lZ,r,o),A.kI(s.w,r,r,r,B.ba,B.ci,r),A.e9(r,r,r,r,p,r,r,r),A.kI(s.x,r,r,r,B.ba,B.ci,r)],m),B.e3,B.c6)))}}
+return A.aaz(A.a9B(B.aA,r,B.Ku,r,r),A.aaC(A.a9P(A.a([A.e9(r,r,r,r,p,r,r,r),A.aay(A.a([A.hP(A.FR(B.As,B.d7,new A.Uf(s)),r,n),A.hP(A.FR(B.Ar,B.d7,new A.Ug(s)),r,n),A.hP(A.FR(B.Au,B.d7,new A.Uh(s)),r,n)],m),B.dt,B.ru,B.c6),A.e9(B.R,A.Bj(B.vh,s.gwQ(),A.rY(r,r,B.aA,r,r,r,r,r,r,new A.W(o,p),r,r,r,r,r,r,r,r,B.eB,r)),r,B.cq,p,B.fk,r,o),A.e9(B.R,A.Bj(B.vg,s.gtu(),A.rY(r,r,B.aA,r,r,r,r,r,r,new A.W(o,p),r,r,r,r,r,r,r,r,B.eB,r)),r,B.cq,p,B.lZ,r,o),A.kI(s.w,r,r,r,B.ba,B.ci,r),A.e9(r,r,r,r,p,r,r,r),A.kI(s.x,r,r,r,B.ba,B.ci,r)],m),B.e3,B.c6)))}}
 A.Ue.prototype={
 $0(){var s,r=this.a,q=r.e
 if(q===""||r.f===""||r.r==="")r.w="X, Y or Z value empty !"
-else if(A.dz(q)<-0.2||A.dz(r.e)>0.2||A.dz(r.f)<-0.12||A.dz(r.f)>0.2||A.dz(r.r)<0.0671||A.dz(r.r)>0.23)r.w="X, Y or Z outside range. Enter value within range."
+else if(A.dz(q)<-0.109||A.dz(r.e)>0.109||A.dz(r.f)<0||A.dz(r.f)>0.109||A.dz(r.r)<0.02||A.dz(r.r)>0.1)r.w="X, Y or Z outside range. Enter value within range."
 else{q=A.dz(r.e)
 A.dz(r.f)
 s=A.dz(r.r)
 $.a8j=A.a([],t.v)
-s=Math.asin((s-(0.0671+0*Math.cos(1.57)))/(0.165*Math.sin(1.57)))
+s=Math.asin((s-(0.02+0*Math.cos(1.57)))/(0.08*Math.sin(1.57)))
 $.a97=s
-s=Math.acos(q/(0.165*Math.cos(s)+0.0375))
+s=Math.acos(q/(0.08*Math.cos(s)+0.03))
 $.ahu=s
 s*=57.325
 $.ahu=s
@@ -33796,7 +33796,7 @@ A.Ui.prototype={
 $0(){var s=this.a,r=s.z=!s.z
 if(r)s.x="Gripper Open"
 else s.x="Gripper Close"
-s.d.c.an(0,A.as(["gripper",r?180:0],t.N,t.X))},
+s.d.c.an(0,A.as(["gripper",r?0:180],t.N,t.X))},
 $S:0}
 A.Uf.prototype={
 $1(a){this.a.e=a},
@@ -63901,12 +63901,12 @@ B.ba=new A.o(!0,B.aA,null,null,null,null,30,B.bx,null,null,null,null,null,null,n
 B.da=new A.o(!0,B.m,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.vY=new A.cQ(B.aA,1,B.aT,B.ae)
 B.aO=new A.fM(4,B.dk,B.vY)
-B.Ar=new A.hr(null,null,null,"\u03b81",B.ba,null,null,null,null,"0 to 180",B.da,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.aO,null,null,B.aO,null,!0,null,null,null)
+B.Ar=new A.hr(null,null,null,"Y",B.ba,null,null,null,null,"0 to 0.109",B.da,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.aO,null,null,B.aO,null,!0,null,null,null)
+B.As=new A.hr(null,null,null,"X",B.ba,null,null,null,null,"-0.109 to 0.109",B.da,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.aO,null,null,B.aO,null,!0,null,null,null)
+B.At=new A.hr(null,null,null,"\u03b81",B.ba,null,null,null,null,"0 to 180",B.da,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.aO,null,null,B.aO,null,!0,null,null,null)
 B.Nv=new A.hr(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null)
-B.As=new A.hr(null,null,null,"X",B.ba,null,null,null,null,"-0.2 to 0.2",B.da,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.aO,null,null,B.aO,null,!0,null,null,null)
-B.At=new A.hr(null,null,null,"\u03b82",B.ba,null,null,null,null,"0 to 180",B.da,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.aO,null,null,B.aO,null,!0,null,null,null)
-B.Au=new A.hr(null,null,null,"Z",B.ba,null,null,null,null,"0.06 to 0.23",B.da,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.aO,null,null,B.aO,null,!0,null,null,null)
-B.Av=new A.hr(null,null,null,"Y",B.ba,null,null,null,null,"-0.12 to 0.2",B.da,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.aO,null,null,B.aO,null,!0,null,null,null)
+B.Au=new A.hr(null,null,null,"Z",B.ba,null,null,null,null,"0.02 to 0.1",B.da,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.aO,null,null,B.aO,null,!0,null,null,null)
+B.Av=new A.hr(null,null,null,"\u03b82",B.ba,null,null,null,null,"0 to 180",B.da,null,null,null,null,null,null,null,null,null,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.aO,null,null,B.aO,null,!0,null,null,null)
 B.Az=new A.hs(0,0.1,B.ab)
 B.Ay=new A.hs(0.125,0.25,B.ab)
 B.Ax=new A.hs(0.6,1,B.ab)
